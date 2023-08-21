@@ -1,0 +1,32 @@
+.footer{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,231,249,1) 22%, rgba(244,238,241,1) 63%, rgba(255,255,255,1) 95%);
+}
+
+.footer p {
+    color: rgb(103, 84, 163, 0.8);
+    font-weight: 600;
+}
+
+.footer .supTexts p {
+    width: max-content;
+}
+
+.footer span {
+    font-size: 1.2rem;
+}
+
+.introFooterContainer{
+    max-width: 20%;
+    /* margin-right: 20%; */
+}
+
+.footer .upperPart{
+    margin-bottom: 70px;
+}
+
+.footer .coloringDiv{
+    height: 60px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,232,244,1) 22%, rgba(244,238,241,1) 63%, rgba(255,255,255,1) 95%);
+}

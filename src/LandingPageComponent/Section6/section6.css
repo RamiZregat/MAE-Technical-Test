@@ -1,0 +1,112 @@
+.section6 .titleIntro {
+  margin-left: 40px;
+}
+
+/* .section6 .rightSide{
+  margin-top: 100px;
+} */
+
+.testimonialsIconContainer {
+  border: 3px rgba(224, 201, 247, 0.4) solid;
+  border-radius: 16px;
+  width: fit-content;
+  position: relative;
+  bottom: 280px;
+  left: 25px;
+}
+
+.testimonialsIcon {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background: #987ff0;
+  border-radius: 13px;
+}
+
+.section6 .personName {
+  background: linear-gradient(
+    180deg,
+    rgba(154, 99, 249, 1) 100%,
+    rgba(202, 172, 252, 1) 0%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section6 .cardLayout {
+  border: #ffff 2px solid;
+  background-color: #faf1fe;
+  box-shadow: 0px 0px 5px 0px #0000001a;
+  border-radius: 32px;
+  width: min-content;
+}
+
+.section6 .supText {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 600;
+  min-width: 180px;
+}
+
+.section6 #testimonialsContainer {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+}
+
+.section6 .testimonialSliderContainer {
+  margin-top: 20px;
+}
+
+.section6 .carouselButtonsContainer {
+  position: relative;
+  bottom: -175px;
+  left: 0;
+  z-index: 100;
+}
+
+.section6 .carouselButtonsContainer a img {
+  background-color: white;
+  padding: 8px;
+  width: 33px;
+  height: 33px;
+}
+
+.colorDiv {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 64%,
+    rgba(246, 238, 248, 1) 100%
+  );
+  height: 100px;
+  width: 100%;
+}
+
+.section6 .heroImgLayout {
+  height: 442px;
+  width: 400px;
+  background: rgb(173, 169, 236);
+  background: linear-gradient(
+    48deg,
+    rgba(173, 169, 236, 1) 0%,
+    rgba(138, 137, 218, 1) 50%,
+    rgba(178, 176, 241, 1) 73%,
+    rgba(211, 210, 250, 1) 100%
+  );
+  border-radius: 13rem 13rem 0 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: #fafafe 15px solid;
+  box-shadow: -30px 0 70px #c09df39e, 0px 0px 5px 2px #0000001a;
+}
+
+.section6 .heroImgLayout  img{
+  width: 386px;
+  transform: translate(7px, -33px);
+}

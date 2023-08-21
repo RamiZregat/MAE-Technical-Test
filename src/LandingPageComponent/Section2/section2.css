@@ -1,0 +1,129 @@
+.carousel-inner {
+  border-radius: 40px;
+  background: #935ed9;
+}
+
+.learnMore {
+  font-weight: 900px;
+  color: #7d5307;
+  display: none;
+}
+
+.learnMoreIcon {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  display: none;
+}
+
+.carousel {
+  border-radius: 55px;
+  border: white 20px solid;
+  box-shadow: -20px 10px 80px #ae90da9e;
+  padding: 0;
+}
+
+.section2 .cardContainer {
+  min-height: 235px;
+  text-align: center;
+  background-color: #935ed9;
+}
+
+.section2 .carouselContainer:hover {
+  background: rgb(243, 207, 110);
+  background: linear-gradient(
+    135deg,
+    rgba(243, 207, 110, 1) 0%,
+    rgba(243, 183, 25, 1) 100%
+  );
+}
+
+.section2 .carouselContainer:hover .cardContainer {
+  border-radius: 40px;
+  /* border-top-right-radius: 40px ; */
+  transform: translate(0, -60px);
+  width: inherit;
+  position: absolute;
+  background: rgb(243, 207, 110);
+  background: linear-gradient(
+    135deg,
+    rgba(243, 207, 110, 1) 0%,
+    rgba(243, 183, 25, 1) 100%
+  );
+  cursor: pointer;
+}
+
+.section2 .carouselContainer:hover .carouselInnerIcons {
+  background-color: #e8a833;
+}
+
+.section2 .carouselContainer:hover p,
+.section2 .cardContainer:hover .cardTitle {
+  color: #7d5307;
+}
+
+.section2 .carouselContainer:hover .learnMore,
+.section2 .carouselContainer:hover .learnMoreIcon {
+  display: inline;
+}
+
+.carousel-item,
+.carousel-inner {
+  position: unset !important;
+}
+
+.cardInner {
+  /* position: relative; */
+  text-align: center;
+  height: fit-content;
+  max-width: 200px;
+}
+
+.card-img {
+  height: 300px;
+}
+
+.carouselIconContainer {
+  border: 3px rgba(224, 201, 247, 0.4) solid;
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.carouselInnerIcons {
+  height: 56px;
+  width: 56px;
+  padding: 10px;
+  background: #7c34f4;
+  border-radius: 13px;
+}
+
+.section2 .cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.carousel-item {
+  height: 235px;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}

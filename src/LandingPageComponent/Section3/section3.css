@@ -1,0 +1,105 @@
+.section3 .part1 {
+  margin-left: 40px;
+}
+
+.valuesIconContainer {
+  border: 3px rgba(224, 201, 247, 0.4) solid;
+  border-radius: 16px;
+  width: fit-content;
+  position: absolute;
+  top: -18px;
+  left: 33px;
+}
+
+.valuesIcon {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  background: #987ff0;
+  border-radius: 13px;
+}
+
+.section3 .cardContainer {
+  position: relative;
+}
+
+.section3 .cardTitle {
+  color: #6754a3;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section3 .cardContent {
+  width: min-content;
+  background-color: #faf1fe;
+  padding: 60px 25px 35px 25px;
+  border-radius: 30px;
+}
+.section3 .cardLayout {
+  border: #ffff 2px solid;
+  box-shadow: 0px 0px 5px 0px #0000001a;
+  border-radius: 32px;
+  width: min-content;
+}
+
+.section3 .cardSupText {
+  color: #6754a3;
+  font-size: 1rem;
+  min-width: 180px;
+}
+
+.section3 .cardLayout:hover {
+  box-shadow: 2px 12px 15px 0px #e3d9f19e;
+}
+
+.section3 .cardLayout:hover .cardContent {
+  background-color: #ffff;
+}
+
+.section3 .cardLayout:hover .valuesIconContainer {
+  border: 3px #fbd56bad solid;
+}
+
+.section3 .cardLayout:hover .valuesIcon {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 213, 114, 1) 0%,
+    rgba(254, 182, 13, 1) 100%
+  );
+}
+
+.section3 .cardLayout:hover .cardTitle {
+  background: linear-gradient(
+    180deg,
+    rgba(154, 99, 249, 1) 100%,
+    rgba(202, 172, 252, 1) 0%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.section3 .heroImgLayout {
+  height: 442px;
+  width: 400px;
+  background: rgb(173, 169, 236);
+  background: linear-gradient(
+    48deg,
+    rgba(173, 169, 236, 1) 0%,
+    rgba(138, 137, 218, 1) 50%,
+    rgba(178, 176, 241, 1) 73%,
+    rgba(211, 210, 250, 1) 100%
+    );
+    border-radius: 13rem 13rem 0 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: #fafafe 15px solid;
+    box-shadow: -30px 0 70px #c09df39e, 0px 0px 5px 2px #0000001a;
+}
+
+.section3 .heroImgLayout  img{
+    width: 440px;
+    transform: translate(-36px, -52px);
+}

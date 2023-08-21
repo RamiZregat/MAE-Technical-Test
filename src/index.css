@@ -1,13 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@400;600&family=Rubik&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Rubik", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.textItalic{
+  font-style: italic;
+}
+
+.lightYellow {
+  color: #f9bc26;
+}
+
+.titleText {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #6754a3;
+  margin: 0;
+  padding: 0;
+}
+
+.titleSupText {
+  color: #6754a3;
+  font-size: 1.1rem;
+  font-weight: 600;
+  max-width: 460px;
+}
+
+.gradientYellow {
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 213, 114, 1) 0%,
+    rgba(254, 182, 13, 1) 100%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradientPurple {
+  background: linear-gradient(
+    180deg,
+    rgba(154, 99, 249, 1) 100%,
+    rgba(202, 172, 252, 1) 0%
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.darkYellow {
+  color: rgba(254, 182, 13, 1);
+}
+
+.darkPurpleBg {
+  background: #7c34f4 !important;
+}
+
+.buttonColor {
+  font-family: "Poppins", sans-serif;
+  background: rgb(255, 213, 114);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 213, 114, 1) 0%,
+    rgba(254, 182, 13, 1) 100%
+  );
+  background-size: 101% 100%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 11px 22px;
+  transition: 1.5s;
+  border: none;
+}
+
+.buttonColor:hover {
+  background: rgba(254, 182, 13, 1);
+}
+
+.btnDiv {
+  border: 3px rgba(255, 255, 255, 0.2) solid;
+  border-radius: 13px;
+  height: min-content;
+}
+
+.edgeSpacing {
+  padding: 0 10%;
+}
+
+.fullWidth {
+  min-width: max-content;
+}
+
+.smallIconContainer {
+  width: min-content;
+  border: 3px rgba(224, 201, 247, 0.4) solid;
+  border-radius: 16px;
+}
+
+.smallIcon {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  background: rgb(159, 104, 249);
+  background: linear-gradient(
+    135deg,
+    rgba(159, 104, 249, 0.7763480392156863) 0%,
+    rgba(159, 104, 249, 1) 100%
+  );
+  border-radius: 13px;
+}
+
+.carouselButtonsContainer a img {
+  border: 3px rgba(224, 201, 247, 0.4) solid;
+  border-radius: 50%;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
 }

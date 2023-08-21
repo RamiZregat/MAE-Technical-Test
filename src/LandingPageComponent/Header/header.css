@@ -1,0 +1,24 @@
+.appHeader {
+  height: 105px;
+}
+
+.appLogo img {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 10px;
+  opacity: 0.8;
+}
