@@ -171,6 +171,12 @@ code {
 }
 
 
+@media screen and (max-width:1200px ) {
+  .edgeSpacing {
+    padding: 0 5%;
+  }
+}
+
 @media screen and (min-width:1600px ) {
   .edgeSpacing {
     padding: 0 15%;
