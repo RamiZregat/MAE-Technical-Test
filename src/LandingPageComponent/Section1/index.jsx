@@ -11,7 +11,7 @@ export default function index() {
     <div className="section1">
       <div className="part1 edgeSpacing pb-3">
           <Header />
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between pb-5 ">
         <div className="leftSide">
         <div className="headerContainer pb-5">
         </div>

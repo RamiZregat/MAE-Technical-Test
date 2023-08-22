@@ -83,7 +83,7 @@
 }
 
 .section1 .heroImgLayout {
-  height: 500px;
+  height: 550px;
   width: 460px;
   background: rgb(173, 169, 236);
   background: linear-gradient(
@@ -98,11 +98,11 @@
     border-bottom-right-radius: 50px;
     border: #fafafe 22px solid;
     box-shadow: -30px -5px 100px #8b44f573, 0px 0px 5px 2px #0000001a;
-    transform: translate(0px, 95px);
+    transform: translate(0px, 120px);
 }
 
 .section1 .heroImgLayout  img{
-  width: 545px;
+  width: 565px;
   transform: translate(-3px, -32px);
 }
 
