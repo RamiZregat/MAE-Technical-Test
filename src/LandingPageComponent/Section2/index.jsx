@@ -21,7 +21,6 @@ export default function Index() {
       }
     });
   }, []);
-
   return (
     <div className="section2 edgeSpacing pt-5">
       <div className="pt-4 d-flex align-items-center justify-content-between">

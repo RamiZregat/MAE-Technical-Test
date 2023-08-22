@@ -5,7 +5,6 @@ import "./section3.css";
 import section3HeroImg from "../../Assets/section3HeroImg.png";
 
 export default function Index() {
-  const cardsCounterArr = [1, 2, 3, 4];
   return (
     <div className="section3 edgeSpacing pt-5">
       <div className="d-flex pt-5 justify-content-between">
@@ -86,23 +85,6 @@ export default function Index() {
                   </div>
               </div>
             </div>
-            {/* <Row xxl={2}>
-              {cardsCounterArr.map((num) => (
-                <Col key={num} className="cardContainer mb-5">
-                  <div className="cardLayout">
-                    <div className="valuesIconContainer">
-                      <img className="valuesIcon" src={heart} alt="" />
-                    </div>
-                    <div className="cardContent">
-                      <span className="cardTitle">Becomes Healthier</span>
-                      <p className="cardSupText">
-                        immune will stronger if the body is healthier
-                      </p>
-                    </div>
-                  </div>
-                </Col>
-              ))}
-            </Row> */}
           </div>
         </div>
       </div>

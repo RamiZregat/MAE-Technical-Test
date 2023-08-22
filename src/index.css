@@ -169,3 +169,22 @@ code {
   width: 44px;
   height: 44px;
 }
+
+
+@media screen and (min-width:1600px ) {
+  .edgeSpacing {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (min-width:1900px ) {
+  .edgeSpacing {
+    padding: 0 20%;
+  }
+}
+
+@media screen and (min-width:2100px ) {
+  .edgeSpacing {
+    padding: 0 25%;
+  }
+}
